@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+	<script src="https://kit.fontawesome.com/f981552c56.js" crossorigin="anonymous"></script>
+	<title>SocialBook HazemKH</title>
+</head>
+<body>
+
+	<div class="preloader">
+		<img src="loading.gif" >
+	</div>
+
+
+		<nav>
+			<div class="nav-left">
+				<img src="Socialbook_img/logo.png" class="logo">
+				<ul>
+					<li><img src="Socialbook_img/notification.png"></li>
+					<li><img src="Socialbook_img/inbox.png"></li>
+					<li><img src="Socialbook_img/video.png"></li>
+				</ul>
+			</div>
+
+			<div class="nav-right">
+				<div class="search-box">
+					<img src="Socialbook_img/search.png">
+					<input type="text" name="" placeholder="Search">
+				</div>
+				<div class="nav-user-icon offline" onclick="settingMenuToggle()">
+					<img src="Socialbook_img/profile-pic.png">
+				</div>
+			</div>
+
+			<!-- setting menu -------------------------------------->
+			<div class="settings-menu">
+				<div id="dark-btn" class="dark-btn">
+					<span></span>
+				</div>
+
+				<div class="settings-menu-inner">
+					<div class="user-profile">
+						<img src="Socialbook_img/profile-pic.png">
+							<div>
+								<p>John Nicholson</p>
+								<a href="#">See your profile</a>
+							</div>
+					</div>
+					<hr>
+				<div class="user-profile">
+					<img src="Socialbook_img/feedback.png">
+						<div>
+							<p>Give Feedback</p>
+							<a href="#">Help us to improve the new design</a>
+						</div>
+				</div>
+				<hr>
+
+				<div class="settings-links">
+					<img src="Socialbook_img/setting.png" class="setting-icon-">
+					<a href="#">Setings & privacy <img src="Socialbook_img/arrow.png" width="10px;"></a>
+				</div>
+
+				<div class="settings-links">
+					<img src="Socialbook_img/help.png" class="setting-icon-">
+					<a href="#">Help & Support <img src="Socialbook_img/arrow.png" width="10px;"></a>
+				</div>
+
+				<div class="settings-links">
+					<img src="Socialbook_img/display.png" class="setting-icon-">
+					<a href="#">Display & Accessiblty <img src="Socialbook_img/arrow.png" width="10px;"></a>
+				</div>
+
+				<div class="settings-links">
+					<img src="Socialbook_img/logout.png" class="setting-icon-">
+					<a href="#">Log Out <img src="Socialbook_img/arrow.png" width="10px;"></a>
+				</div>
+
+			</div>
+			</div>
+
+		</nav>
+
+		<div class="container">
+
+				<!-- Left side Content -------------------------------------->
+				<div class="left-sidebar">
+
+						<div class="imp-links">
+							<a href="#"><img src="Socialbook_img/news.png">Latest News</a>
+							<a href="#"><img src="Socialbook_img/friends.png">Friends</a>
+							<a href="#"><img src="Socialbook_img/group.png">Group</a>
+							<a href="#"><img src="Socialbook_img/marketplace.png">Market place</a>
+							<a href="#"><img src="Socialbook_img/watch.png">Watch</a>
+							<a href="#">See More...</a>
+						</div>		
+						
+						<div class="shortcut-links">
+							<p>Your Shortcuts</p>
+							<a href=""><img src="Socialbook_img/shortcut-1.png">Web Devlopers</a>
+							<a href=""><img src="Socialbook_img/shortcut-2.png">Web Desgin Course</a>
+							<a href=""><img src="Socialbook_img/shortcut-3.png">Full Stack Devlopment</a>
+							<a href=""><img src="Socialbook_img/shortcut-4.png">Website Experts</a>
+						</div>
+				</div>
+	
+				<!-- Main Content -------------------------------------->
+				<div class="main-content">
+					
+					<div class="story-gallery">
+						<div class="story story1">
+							<img src="Socialbook_img/upload.png">
+							<p>Post Story</p>
+						</div>
+					<!------------------------------------------------------------------------->
+							
+							<button class="story story2" id="story2">
+							<div>
+								<img src="Socialbook_img/member-1.png">
+								<p>Alison</p>
+							</div>
+							</button>
+							    <div class="modal-overlay">
+						      		<div class="modal-container">
+						      			<img src="Socialbook_img/status-2.png">
+						        		<button class="close-btn">
+						         			 <i class="fas fa-times"></i>
+						       			</button>
+						      		</div>
+    							</div>
+					<!------------------------------------------------------------------------->		
+
+							<button class="story story3" id="story3">
+							<div>
+								<img src="Socialbook_img/member-2.png">
+								<p>Jakson</p>
+							</div>
+							</button>
+							<div class="modal-overlay">
+						      		<div class="modal-container">
+						      			<img src="Socialbook_img/status-3.png">
+						        		<button class="close-btn">
+						         			 <i class="fas fa-times"></i>
+						       			</button>
+						      		</div>
+    							</div>
+
+    					<!------------------------------------------------------------------------->
+							<button class="story story4" id="story4" >
+							<div>
+								<img src="Socialbook_img/member-3.png">
+								<p>Samona</p>
+							</div>
+							</button>
+							<div class="modal-overlay">
+						      		<div class="modal-container">
+						      			<img src="Socialbook_img/status-4.png">
+						        		<button class="close-btn">
+						         			 <i class="fas fa-times"></i>
+						       			</button>
+						      		</div>
+    							</div>
+    					<!------------------------------------------------------------------------->
+							<button class="story story5" id="story5">
+							<div >
+								<img src="Socialbook_img/member-4.png">
+								<p>John Doe</p>
+							</div>
+							</button>
+							<div class="modal-overlay">
+						      		<div class="modal-container">
+						      			<img src="Socialbook_img/status-5.png">
+						        		<button class="close-btn">
+						         			 <i class="fas fa-times"></i>
+						       			</button>
+						      		</div>
+    							</div>
+    						<!------------------------------------------------------------------------->
+					</div>			
+
+
+					<div class="write-post-container">
+						<div class="user-profile">
+							<img src="Socialbook_img/profile-pic.png">
+							<div>
+								<p>John Nicholson</p>
+								<small>Public <i class="fas fa-caret-down"></i></small>
+							</div>
+						</div>
+
+						<div class="post-input-container">
+							<textarea rows="3" placeholder="what's on your mind, John"></textarea>
+
+							<div class="add-post-link">
+								<a href=""><img src="Socialbook_img/live-video.png"> Live video</a>
+								<a href=""><img src="Socialbook_img/photo.png"> Photo/Video</a>
+								<a href=""><img src="Socialbook_img/feeling.png"> Feeling/Activity</a>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="post-container">
+						<div class="post-row">
+							<div class="user-profile">
+								<img src="Socialbook_img/profile-pic.png">
+								<div>
+									<p>John Nicholson</p>
+									<span>Jun 26,2021  12:09 Am</span>
+								</div>
+							</div>
+							<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+						</div>
+						
+						<p class="post-text">
+							I love to studying something new i watch <span>hazem khasawneh</span> on linkedin and how to be like hazem in few years <a href="#">#hazem_khasawneh  #hazem_khasawneh</a>
+						</p> 
+						<img src="Socialbook_img/feed-image-1.png" class="post-img">
+
+						<div class="post-row">
+							<div class="activity-icons">
+								<div><img src="Socialbook_img/like-blue.png">120</div>
+								<div><img src="Socialbook_img/comments.png">45</div>
+								<div><img src="Socialbook_img/share.png">10</div>
+							</div>
+
+							<div class="post-profile-icon">
+								<img src="Socialbook_img/profile-pic.png">
+								<small><i class="fas fa-caret-down"></i></small>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-container">
+						<div class="post-row">
+							<div class="user-profile">
+								<img src="Socialbook_img/member-1.png">
+								<div>
+									<p>John Nicholson</p>
+									<span>Jun 26,2021  12:09 Am</span>
+								</div>
+							</div>
+							<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+						</div>
+						
+						<p class="post-text">
+							<a href="#">#GAZA_UNDERATTAK  #GAZA_UNDERATTAK #GAZA_UNDERATTAK  #GAZA_UNDERATTAK #GAZA_UNDERATTAK  #GAZA_UNDERATTAK #GAZA_UNDERATTAK  #GAZA_UNDERATTAK #GAZA_UNDERATTAK  #GAZA_UNDERATTAK #GAZA_UNDERATTAK  #GAZA_UNDERATTAK #GAZA_UNDERATTAK  #GAZA_UNDERATTAK</a>
+							<i class="flag flag-palestine"></i>
+							<i class="flag flag-united-states"></i>
+						</p> 
+
+						<div class="post-row">
+							<div class="activity-icons">
+								<div><img src="Socialbook_img/like-blue.png">1,120</div>
+								<div><img src="Socialbook_img/comments.png">899</div>
+								<div><img src="Socialbook_img/share.png">90</div>
+							</div>
+
+							<div class="post-profile-icon">
+								<img src="Socialbook_img/profile-pic.png">
+								<small><i class="fas fa-caret-down"></i></small>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-container">
+						<div class="post-row">
+							<div class="user-profile">
+								<img src="Socialbook_img/member-3.png">
+								<div>
+									<p>John Nicholson</p>
+									<span>Feb 06,2021  05:49 Am</span>
+								</div>
+							</div>
+							<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+						</div>
+						
+						<p class="post-text">
+							<p>Join with us trip in jordan and onther cuntry by <span>#Expidia</span></p>
+						</p> 
+							<img src="Socialbook_img/feed-image-2.png" class="post-img">
+						<div class="post-row">
+							<div class="activity-icons">
+								<div><img src="Socialbook_img/like-blue.png">4</div>
+								<div><img src="Socialbook_img/comments.png">2</div>
+								<div><img src="Socialbook_img/share.png"></div>
+							</div>
+
+							<div class="post-profile-icon">
+								<img src="Socialbook_img/profile-pic.png">
+								<small><i class="fas fa-caret-down"></i></small>
+							</div>
+						</div>
+					</div>
+
+					<div class="post-container">
+						<div class="post-row">
+							<div class="user-profile">
+								<img src="Socialbook_img/profile-pic.png">
+								<div>
+									<p>John Nicholson</p>
+									<span>Aug 04,2021  12:09 PM</span>
+								</div>
+							</div>
+							<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+						</div>
+						
+						<p class="post-text">
+							we will work with WW.com via aspire services <a href="#">#Aspire Services</a>
+						</p> 
+						<img src="Socialbook_img/feed-image-4.png" class="post-img">
+
+						<div class="post-row">
+							<div class="activity-icons">
+								<div><img src="Socialbook_img/like-blue.png">687</div>
+								<div><img src="Socialbook_img/comments.png">71</div>
+								<div><img src="Socialbook_img/share.png">1</div>
+							</div>
+
+							<div class="post-profile-icon">
+								<img src="Socialbook_img/profile-pic.png">
+								<small><i class="fas fa-caret-down"></i></small>
+							</div>
+						</div>
+					</div>
+
+					
+
+				</div>
+		
+				<!-- Right Content -------------------------------------->
+				<div class="right-sidebar">
+					<div class="sidebar-title">
+						<h4>Events</h4>
+						<a href="#">See All...</a>
+					</div>
+
+					<div class="event">
+						<div class="left-event">
+							<h3 id="day"></h3>
+							<span id="month"></span>
+						</div>
+						<div class="right-event">
+							<h4>Social Media</h4>
+							<p><i class="fas fa-map-marker-alt"></i> Willson Tech Park</p>
+							<a href="#">More Info</a>
+						</div>
+					</div>
+
+					<div class="event">
+						<div class="left-event">
+							<h3>11</h3>
+							<span >March</span>
+						</div>
+						<div class="right-event">
+							<h4>Mobil Marketing</h4>
+							<p><i class="fas fa-map-marker-alt"></i> Willson Tech Park</p>
+							<a href="#">More Info</a>
+						</div>
+					</div>
+
+					<div class="sidebar-title">
+						<h4>Advertisment</h4>
+						<button class="closebtn">Close*</button>
+					</div>
+
+					<video class="sidebar-ads" controls muted autoplay loop>
+  						<source src="video.mp4" type="video/mp4">
+  					</video>
+  					<br>
+  					<div class="sidebar-title">
+						<h4>Conversation</h4>
+						<a href="#">Hide Chat</a>
+					</div>
+
+					<div class="online-list">
+						<div class="online">
+							<img src="Socialbook_img/member-1.png">
+						</div>
+						<p>Alison Mina</p>
+					</div>
+					<div class="online-list">
+						<div class="online">
+							<img src="Socialbook_img/member-2.png">
+						</div>
+						<p>Jakson Aston</p>
+					</div>
+					<div class="online-list">
+						<div class="online">
+							<img src="Socialbook_img/member-3.png">
+						</div>
+						<p>Samona Rose</p>
+					</div>
+				</div>
+		</div>
+
+		<div class="footer">
+			<p>Copyright 2021 - Easy Tutorials Channels</p>
+		</div>
+
+	<script src="app.js"></script>
+</body>
+</html>
